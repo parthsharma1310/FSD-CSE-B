@@ -6,6 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>my first webpage</h1>
+    <h1>Register Here</h1>
+    <form method="post" action="/register">
+        <label for="name">Name</label>
+        <input type="text" name="uname" placeholder="Enter the Username" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter you email" required>
+        <br><br>
+        <label for="mobile">Mobile no.</label>
+        <input type="number" name="mobile" placeholder="Enter you number" required>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="M" checked>Male
+        <input type="radio" name="gender" value="F">Female
+        <br><br>    
+        <label for="branch">Branch</label>
+        <select name="branch">
+            <option value="Cse">Cse</option>
+            <option value="Ece">Ece</option>
+            <option value="Me">Me</option>
+            <option value="Ce">Ce</option>
+        </select>
+        <br><br>
+        <label for="sem">Sem</label>
+        <select name="sem">
+            <option value="1">I</option>
+            <option value="2">II</option>
+            <option value="3">III</option>
+            <option value="4">IV</option>
+        </select>
+        <br><br>
+        <label for="Address">Address</label>
+        <textarea name="Address" cols="30" rows="2">Enter your address</textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>   
+    </form>
+
 </body>
 </html>
