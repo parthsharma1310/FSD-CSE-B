@@ -1,0 +1,17 @@
+.card{
+  width: 300px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgb(170, 115, 33);
+  color: while;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 100px;
+}
+.booklist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
